@@ -15,7 +15,13 @@ addBtn.addEventListener("click", (e) => {
           const input = document.createElement("input");
           input.type = "checkbox";
           p.textContent = text;
-
+            input.addEventListener('change',()=>{
+                if (micheckbox.checked) {
+                    contador++;
+                  } else {
+                    contador--;
+                  }
+            })
           li.appendChild(input);
           li.appendChild(p);
           li.appendChild(addDeletebtn());
