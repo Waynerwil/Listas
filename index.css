@@ -1,0 +1,86 @@
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.circulo {
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.papa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.derecha {
+  display: flex;
+  margin: left;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.izquierda {
+  padding: 15pxpx;
+}
+.forma {
+  margin: 15px;
+}
+.forma2 {
+  margin: 15px;
+}
+.boton1 {
+  background-color: black;
+  padding: 10px;
+  padding-right: 125.9px;
+  color: white;
+}
+.agregar {
+  padding: 10px;
+}
+.container {
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+}
+
+li {
+  list-style: none;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  height: 25px;
+}
+
+li p {
+  margin: 2px;
+  padding: -4px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.boton1 {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-family: fantasy;
+  background-color:yellowgreen;
+  font-size: 1.4rem;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.empty {
+  color:darkslategray;
+}
